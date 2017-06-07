@@ -1,0 +1,20 @@
+{
+  "name": "rtsp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "kurento-client": "Kurento/kurento-client-js",
+    "rtsp-stream": "^1.0.0",
+    "sdp-transform": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
